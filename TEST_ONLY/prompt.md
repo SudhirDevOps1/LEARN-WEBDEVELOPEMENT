@@ -86,7 +86,56 @@ Range - Input Element
 vidpo
 
 Text Area} ko bilkul beginner level par samjhao, jaise ek chhote bachhe ko samjha rahe ho. Explanation simple, clear aur step-by-step ho.
-aue mermaid se visual bhi dena 
+aue mermaid se visual bhi dena yese example ```mermaid
+graph TD
+    A[🛡️ INCOMING THREAT] --> B{🔍 Analyze Severity}
+
+    B -->|Score 9-10| C[🔴 CRITICAL]
+    B -->|Score 6-8| D[🟠 HIGH]
+    B -->|Score 3-5| E[🟡 MEDIUM]
+    B -->|Score 1-2| F[🟢 LOW]
+
+    C --> C1[🚨 Immediate Alert]
+    C --> C2[🔒 Auto Block IP]
+    C --> C3[📋 Log Incident]
+
+    D --> D1[⚠️ Warning Notification]
+    D --> D2[📋 Log & Monitor]
+
+    E --> E1[📝 Log for Review]
+    E --> E2[👁️ Add to Watchlist]
+
+    F --> F1[📊 Stats Update Only]
+
+    C1 --> G[📊 Dashboard Update]
+    D1 --> G
+    E1 --> G
+    F1 --> G
+```
+
+---
+
+## 🔍 Technical Deep-Dive
+
+### 📂 Directory Structure
+```mermaid
+graph TD
+    ROOT[🛡️ Shimba-s-Dashboard] --> INDEX[📄 index.html]
+    ROOT --> CSS[📁 css/]
+    ROOT --> JS[📁 js/]
+    ROOT --> ASSETS[📁 assets/]
+    ROOT --> LIB[📁 lib/]
+
+    CSS --> CSS1[🎨 style.css]
+    CSS --> CSS2[🎨 dashboard.css]
+
+    JS --> JS1[⚡ main.js]
+    JS --> JS2[⚡ charts.js]
+    JS --> JS3[⚡ map.js]
+
+    LIB --> LIB1[📊 chart.js]
+    LIB --> LIB2[🌍 leaflet/]
+```
 Output pure markdown format mein do aur content ko README.md style mein structure karo.
 
 Structure strictly follow karo:
