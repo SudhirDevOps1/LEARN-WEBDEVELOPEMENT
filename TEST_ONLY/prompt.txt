@@ -1,0 +1,131 @@
+Create a web application where the user can enter any topic, and the system automatically generates a complete Beginner-Friendly README.md style guide along with a Mermaid visual diagram that renders beautifully inside Markdown (like GitHub README).
+
+The app must generate output strictly in pure Markdown format and follow a fixed structured template.
+
+Core Functionality:
+
+A main input field where user enters any topic (for example: HTML Forms, JavaScript Functions, CSS Flexbox, etc.)
+
+On submit, the app generates:
+
+Beginner-level explanation (as if explaining to a child)
+
+Real-life examples
+
+Basic code example
+
+Practical use case example
+
+Mental model explanation
+
+Text-based diagram
+
+Mermaid diagram block
+
+Practice questions
+
+Common mistakes
+
+Summary
+
+Next learning step
+
+The generated output must be structured exactly like this:
+
+📘 {TOPIC_NAME} — Beginner Friendly Guide
+🎯 Goal
+
+2–3 lines explaining what the topic does.
+
+🧠 1. Simple Explanation (Bachhe Jaise Samjho)
+
+Very simple language
+
+Short sentences
+
+No difficult words
+
+🌍 2. Real Life Example
+
+2–3 daily life examples
+
+Clear explanation
+
+💻 3. Code Example (Basic)
+
+One simple beginner-friendly code example
+
+Proper markdown code block
+
+Line-by-line explanation
+
+Expected output explanation
+
+⚙️ 4. Code Example (Practical Use)
+
+Real-world problem
+
+Solution using code
+
+Clear explanation
+
+🧩 5. Mental Model
+
+Use analogy (machine, box, water flow, traffic signal, etc.)
+
+Explain in Input → Process → Output format
+
+📊 6. Visual Thinking
+
+Simple text diagram explaining flow
+
+🔷 7. Mermaid Diagram
+
+Must include a properly formatted Mermaid block like:
+
+graph TD
+    A[Input] --> B[Process]
+    B --> C[Output]
+
+
+The Mermaid diagram should represent the topic flow clearly and visually.
+
+🧪 8. Practice Problems
+Easy (3)
+Medium (2)
+Challenge (1)
+❌ 9. Common Mistakes
+
+3 beginner mistakes
+
+Explain why they happen
+
+✅ 10. Summary
+
+5 quick revision bullet points
+
+🚀 11. Next Step
+
+What to learn after this topic
+
+Additional Requirements:
+
+Output must be clean Markdown
+
+Proper heading hierarchy
+
+Proper spacing
+
+Proper code formatting
+
+Mermaid must render correctly in README.md
+
+Content must be detailed but beginner-friendly
+
+No extra explanations outside the structured format
+
+No meta commentary
+
+Direct ready-to-paste README.md output
+
+The application should automatically adapt content based on the topic entered and generate structured educational documentation with Mermaid visualization.
